@@ -70,47 +70,55 @@ harsh-portfolio/
    ```bash
    git clone https://github.com/SkY-DyNamiC/harsh-portfolio.git
    cd harsh-portfolio
-   🌟 Key Highlights ✨
-⚡ Fast Loading - Optimized with Vite
+  ## 🌟 Key Highlights ✨
 
-🎯 SEO Friendly - Proper meta tags and structure
+- **⚡ Fast Loading** - Optimized with Vite
+- **🎯 SEO Friendly** - Proper meta tags and structure
+- **🔍 Accessible** - Follows web accessibility guidelines
+- **📱 Mobile First** - Responsive design approach
 
-🔍 Accessible - Follows web accessibility guidelines
+## 📧 Contact Information 📞
 
-📱 Mobile First - Responsive design approach
+| | Details |
+|-|---------|
+| **📧 Email** | harsh832019@gmail.com |
+| **📱 Phone** | +91-9693967173 |
+| **📍 Location** | Patna, Bihar 800001 🇮🇳 |
+| **💼 LinkedIn** | [linkedin.com/in/harsh-kumar](https://www.linkedin.com/in/harsh-kumar555125/) |
+| **🐙 GitHub** | [github.com/SkY-DyNamiC](https://github.com/SkY-DyNamiC) |
 
-📧 Contact Information 📞
-Details
-📧 Email	harsh832019@gmail.com
-📱 Phone	+91-9693967173
-📍 Location	Patna, Bihar 800001 🇮🇳
-💼 LinkedIn	linkedin.com/in/harsh-kumar
-🐙 GitHub	github.com/SkY-DyNamiC
-🤝 Contributing
+## 🤝 Contributing
+
 Feel free to fork this project and submit pull requests for any improvements! 🔄
 
-🐛 Bug Report
+## 🐛 Bug Report
+
 If you find any bugs, please create an issue on GitHub. 🐞
 
-📄 License 📜
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License 📜
 
-🙏 Acknowledgments 🎁
-⚛️ React Community - For amazing documentation and support
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-🎨 Design Inspiration - Modern web design trends and Dribbble
+## 🙏 Acknowledgments 🎁
 
-🔗 React Icons - Beautiful icons library
+- **⚛️ React Community** - For amazing documentation and support
+- **🎨 Design Inspiration** - Modern web design trends and Dribbble
+- **🔗 React Icons** - Beautiful icons library
+- **🔤 Google Fonts** - Poppins font family
+- **🚀 Vite Team** - Incredible build tool
 
-🔤 Google Fonts - Poppins font family
+---
 
-🚀 Vite Team - Incredible build tool
+**© 2025 Harsh Kumar. All rights reserved.** 🛜
 
-© 2025 Harsh Kumar. All rights reserved. 🛜
+---
 
-⭐ Don't forget to star the repo if you like this portfolio! ⭐
+*⭐ Don't forget to star the repo if you like this portfolio! ⭐*
 
-🔄 This portfolio is constantly evolving. Feel free to suggest improvements or report issues! 🔄
+*🔄 This portfolio is constantly evolving. Feel free to suggest improvements or report issues! 🔄*
 
+## 🎊 Thank You for Visiting! 🎊
+
+Hope you enjoyed exploring my portfolio! Let's connect and create something amazing together! 🌟
 🎊 Thank You for Visiting! 🎊
    
