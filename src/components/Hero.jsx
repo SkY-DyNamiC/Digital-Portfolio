@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import profileImage from '../assets/sky_dynamic.x_.jpg';
+import profileImage from '../assets/formal2.jpeg';
 const Hero = () => {
   return (
     <section id="home" className="hero">
