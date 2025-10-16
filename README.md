@@ -23,29 +23,6 @@ A modern, responsive digital portfolio built with React.js and Vite showcasing m
 | **Fonts** | Google Fonts (Poppins) 🔤 |
 | **Icons** | React Icons 🎯 |
 
-## 📁 Project Structure 🗂️
-harsh-portfolio/
-├── public/
-│ └── vite.svg
-├── src/
-│ ├── components/ # 🧩 React Components
-│ │ ├── Navbar.jsx # 🧭 Navigation Bar
-│ │ ├── Hero.jsx # 🎯 Hero Section
-│ │ ├── About.jsx # 👨‍💻 About Section
-│ │ ├── Skills.jsx # 💡 Skills Section
-│ │ ├── Projects.jsx # 🚀 Projects Showcase
-│ │ ├── Certifications.jsx # 📜 Certifications
-│ │ ├── Education.jsx # 🎓 Education Timeline
-│ │ └── Contact.jsx # 📞 Contact Section
-│ ├── App.jsx # 🏠 Main App Component
-│ ├── main.jsx # ⚡ Entry Point
-│ ├── index.css # 🎨 Global Styles
-│ └── index.html # 📄 HTML Template
-├── package.json # 📦 Dependencies
-├── vite.config.js # ⚙️ Vite Configuration
-└── README.md # 📚 Documentation
-
-
 ## 🎯 Portfolio Sections 📑
 
 | Section | Description | Emoji |
@@ -121,4 +98,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Hope you enjoyed exploring my portfolio! Let's connect and create something amazing together! 🌟
 🎊 Thank You for Visiting! 🎊
+<h2>❤️ Support Me</h2>
+<p><p>
+<a href="https://www.buymeacoffee.com/buymeacoffee.com/SkyDynAmiC">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="160" alt="buymeacoffee" />
+</a>
+</p>
+</p>
+
    
