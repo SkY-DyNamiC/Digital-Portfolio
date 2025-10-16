@@ -133,3 +133,17 @@ html {
 .main-content {
   padding-top: 80px; /* Space for fixed header */
 }
+.fade-on-scroll {
+  opacity: 0;
+  transform: translateY(60px) scale(0.96);
+  filter: blur(12px);
+  transition:
+    opacity 0.8s cubic-bezier(.19,1,.22,1),
+    transform 0.8s cubic-bezier(.19,1,.22,1),
+    filter 0.7s;
+}
+.fade-on-scroll.in-view {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0) scale(1);
+}

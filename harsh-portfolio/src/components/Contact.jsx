@@ -8,7 +8,6 @@ const Contact = () => {
     subject: '',
     message: ''
   });
-
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
@@ -21,8 +20,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
     setTimeout(() => {
       alert('Thank you for your message! I will get back to you soon.');
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -31,50 +28,49 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact section">
+    <section id="contact" className="contact-section themed-bg">
+      <div className="contact-blur contact-blur1"></div>
+      <div className="contact-blur contact-blur2"></div>
+      <div className="contact-blur contact-blur3"></div>
       <div className="container">
-        <h2 className="section-title">Get In Touch</h2>
-        
-        <div className="contact-content">
-          <div className="contact-info">
-            <h3 className="contact-subtitle">Let's Connect</h3>
+        <h2 className="section-title contact-glow">Get In Touch</h2>
+        <div className="contact-row">
+          {/* Left: Info/cards */}
+          <div className="contact-col glass-block info-col">
+            <h3 className="contact-subtitle gradient-text">Let's Connect</h3>
             <p className="contact-description">
-              I'm always excited to discuss new opportunities, innovative projects, 
-              or just have a friendly chat about technology and development. 
+              I'm always excited to discuss new opportunities, innovative projects,
+              or just have a friendly chat about technology and development.
               Feel free to reach out!
             </p>
-            
             <div className="contact-cards">
               <div className="contact-card">
-                <div className="contact-icon">📧</div>
+                <div className="contact-icon bright">📧</div>
                 <div className="contact-details">
                   <h4>Email</h4>
                   <a href="mailto:harsh832019@gmail.com">harsh832019@gmail.com</a>
                 </div>
               </div>
-              
               <div className="contact-card">
-                <div className="contact-icon">📍</div>
+                <div className="contact-icon bright">📍</div>
                 <div className="contact-details">
                   <h4>Location</h4>
                   <p>Patna, Bihar, India</p>
                 </div>
               </div>
-              
               <div className="contact-card">
-                <div className="contact-icon">📞</div>
+                <div className="contact-icon bright">📞</div>
                 <div className="contact-details">
                   <h4>Phone</h4>
                   <a href="tel:+919693967173">+91-9693967173</a>
                 </div>
               </div>
-              
               <div className="contact-card">
-                <div className="contact-icon">💼</div>
+                <div className="contact-icon bright">💼</div>
                 <div className="contact-details">
                   <h4>LinkedIn</h4>
                   <a 
-                    href="https://linkedin.com/in/harsh-kumar" 
+                    href="https://www.linkedin.com/in/harsh-kumar555125/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
@@ -82,24 +78,23 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-              
               <div className="contact-card">
-                <div className="contact-icon">🐙</div>
+                <div className="contact-icon bright">🐙</div>
                 <div className="contact-details">
                   <h4>GitHub</h4>
                   <a 
-                    href="https://github.com/harsh" 
+                    href="https://github.com/SkY-DyNamiC" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
-                    github.com/harsh
+                    github.com/SkY-DyNamiC
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          
-          <div className="contact-form-section">
+          {/* Right: Contact Form */}
+          <div className="contact-col glass-block form-col">
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <input
@@ -112,7 +107,6 @@ const Contact = () => {
                   className="form-input"
                 />
               </div>
-              
               <div className="form-group">
                 <input
                   type="email"
@@ -124,7 +118,6 @@ const Contact = () => {
                   className="form-input"
                 />
               </div>
-              
               <div className="form-group">
                 <input
                   type="text"
@@ -136,7 +129,6 @@ const Contact = () => {
                   className="form-input"
                 />
               </div>
-              
               <div className="form-group">
                 <textarea
                   name="message"
@@ -148,38 +140,33 @@ const Contact = () => {
                   className="form-textarea"
                 ></textarea>
               </div>
-              
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className={`submit-btn ${isSubmitting ? 'submitting' : ''}`}
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (
                   <>
-                    <span className="spinner"></span>
-                    Sending...
+                    <span className="spinner"></span> Sending...
                   </>
                 ) : (
                   <>
-                    Send Message
-                    <span className="send-icon">📤</span>
+                    Send Message <span className="send-icon">📤</span>
                   </>
                 )}
               </button>
             </form>
           </div>
         </div>
-        
-        <div className="availability-status">
-          <div className="status-indicator"></div>
+        <div className="availability-status glow-status">
+          <div className="status-indicator pulse-dot"></div>
           <span>Available for freelance projects and full-time opportunities</span>
         </div>
       </div>
-      
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
-            <p>&copy; 2024 Harsh Kumar. All rights reserved.</p>
+            <p>&copy; 2025 Harsh Kumar. All rights reserved.</p>
             <p>Built with React.js and passion for clean code</p>
           </div>
         </div>

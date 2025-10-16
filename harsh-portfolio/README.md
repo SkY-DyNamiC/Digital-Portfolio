@@ -1,16 +1,102 @@
-# React + Vite
+# Harsh Kumar Digital Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official digital portfolio of Harsh Kumar, a passionate Full Stack Developer from Patna, Bihar. This portfolio showcases Harsh's skills, projects, certifications, and contact information in a sleek, modern, and responsive web design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About This Portfolio
 
-## React Compiler
+This project is a personal portfolio website built to represent Harsh Kumar's expertise, experience, and work samples. It is designed to be visually appealing with a **shiny blue theme**, modern glass-morphism effects, and smooth animations that create an excellent user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – For building the interactive UI using components
+- **Vite** – For fast and optimized build and development environment
+- **JavaScript (ES6+)** – Core programming language for web development
+- **CSS3** – Custom styles including animations, gradients, and glass-morphism
+- **Responsive Design** – Flexbox and CSS Grid for mobile-first responsiveness
+- **Google Fonts (Poppins)** – For clean and modern typography
+- **React Hooks** – For state management and lifecycle methods
+- **npm (Node Package Manager)** – To manage dependencies and run scripts
+
+---
+
+## Project Structure
+
+harsh-portfolio/
+├── src/
+│ ├── assets/ # Images including profile picture
+│ ├── components/ # React components (Header, Hero, About, etc.)
+│ ├── App.jsx # Main App component
+│ ├── App.css # Global styles
+│ ├── main.jsx # Entry point for React rendering
+│ └── index.html # HTML template
+├── package.json # npm package and script configuration
+├── README.md # Project documentation (this file)
+
+
+---
+
+## Features
+
+- **Landing Page with Large Profile Picture** showcasing Harsh Kumar with animated glowing circle
+- **About Section** highlighting personal bio and experience
+- **Skills Section** with tabbed categories and animated progress bars
+- **Projects Section** displaying featured projects with filters and hover effects
+- **Certifications & Achievements** showcasing all professional certifications and achievements
+- **Contact Section** including contact form and detailed contact information
+- **Sticky Header** with smooth scrolling navigation
+- **Fully Responsive** design for all device sizes
+- **Performance Optimized** by using Vite for fast reloads and builds
+
+---
+
+## How to Run the Project Locally
+
+1. **Clone the repository**  
+ git clone https://github.com/harsh
+       cd harsh-portfolio
+       
+2. **Install dependencies**  
+npm install
+
+3. **Start the development server**  
+npm run dev
+
+4. **Open in your browser** at `http://localhost:5173`
+
+---
+
+## How to Build for Production
+
+Run the following command to build an optimized production version of the portfolio:
+
+npm run build
+
+---
+
+## Notes
+
+- Please ensure your profile picture is placed inside the `src/assets/` folder and referenced correctly in `Hero.jsx`.
+- All design and color schemes aim to reflect a modern, tech-savvy personal brand.
+
+---
+
+## Contact
+
+- **Email:** harsh832019@gmail.com  
+- **Phone:** +91-9693967173  
+- **LinkedIn:** [linkedin.com/in/harsh-kumar](https://www.linkedin.com/in/harsh-kumar555125/)  
+- **GitHub:** [https://github.com/harsh](https://github.com/SkY-DyNamiC)  
+
+---
+
+## Acknowledgements
+
+This portfolio was created with ❤️ using React.js and Vite, inspired by modern web design trends.
+
+---
+
+Thank you for visiting!

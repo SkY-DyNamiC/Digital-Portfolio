@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './Projects.css';
+import screenshot from '../assets/Screenshot (90).png'
+import hawa from '../assets/hawa.png'
+import certi from '../assets/certificate.png'
+import skymusic from '../assets/Screenshot 2025-10-06 020928.jpg'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all');
@@ -7,18 +11,18 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Fashion Factory',
+      title: ' GameZone 🎮',
       category: 'website',
-      description: 'A user-friendly fashion e-commerce website for seamless online shopping of clothes and fashion products.',
-      tech: ['HTML5', 'CSS3', 'JavaScript'],
-      duration: 'Oct 2024 - Nov 2024',
+      description: 'It’s designed as a gaming hub where users can explore, search, and manage game listings with a smooth and dynamic interface.',
+      tech: ['Node.js', 'Express.js','MongoDB', 'JavaScript'],
+      duration: 'March 2025 - April 2025',
       features: [
-        'Responsive design for all devices',
-        'Product catalog with search functionality',
-        'Shopping cart and checkout system',
-        'User authentication and profiles'
+        'Built with Node.js & Express.js for backend logic',
+        'MongoDB for storing and managing game data',
+        'Full CRUD functionality (Add, Update, Delete games)',
+        'Secure User Authentication'
       ],
-      image: 'https://via.placeholder.com/400x250/0080ff/ffffff?text=Fashion+Factory',
+      image: screenshot,
       github: '#',
       demo: '#'
     },
@@ -35,7 +39,7 @@ const Projects = () => {
         'PDF export functionality',
         'Custom branding and styling options'
       ],
-      image: 'https://via.placeholder.com/400x250/00d4ff/ffffff?text=Certificate+Generator',
+      image: certi,
       github: '#',
       demo: '#'
     },
@@ -52,7 +56,25 @@ const Projects = () => {
         'Booking management system',
         'Travel guide and recommendations'
       ],
-      image: 'https://via.placeholder.com/400x250/1e90ff/ffffff?text=Incredible+India',
+      image: hawa,
+      github: '#',
+      demo: '#'
+    },
+    {
+      id: 4,
+      title: 'SkyMusic 🎵',
+      category: 'Application',
+      description: 'SkyMusic is a modern mobile music application designed to provide users with a seamless and immersive listening experience.',
+      tech: ['Ionic Framework', 'HTML5', 'Bootstrap5', 'SCSS', 'TypeScript'],
+      duration: 'Oct 2024 - Nov 2024',
+      features: [
+        'Create and manage custom playlists',
+        'Album and track detail views',
+        'Subscription system for premium features',
+        'Cross-platform support for Android and iOS',
+        'Responsive and futuristic UI design'
+      ],
+      image: skymusic,
       github: '#',
       demo: '#'
     }
@@ -61,13 +83,14 @@ const Projects = () => {
   const categories = [
     { key: 'all', label: 'All Projects', icon: '🌟' },
     { key: 'website', label: 'Websites', icon: '🌐' },
-    { key: 'automation', label: 'Automation', icon: '🤖' }
+    { key: 'automation', label: 'Automation', icon: '🤖' },
+    { key: 'Application', label: 'Application', icon: '♫' }
   ];
 
   const filteredProjects = filter === 'all' ? projects : projects.filter(project => project.category === filter);
 
   return (
-    <section id="projects" className="projects section">
+    <section id="projects" className="projects">
       <div className="container">
         <h2 className="section-title">Featured Projects</h2>
         
@@ -112,15 +135,12 @@ const Projects = () => {
                   <h3 className="project-title">{project.title}</h3>
                   <span className="project-duration">{project.duration}</span>
                 </div>
-                
                 <p className="project-description">{project.description}</p>
-                
                 <div className="project-tech">
                   {project.tech.map((tech) => (
                     <span key={tech} className="tech-tag">{tech}</span>
                   ))}
                 </div>
-                
                 <div className="project-features">
                   <h4>Key Features:</h4>
                   <ul>
@@ -137,7 +157,7 @@ const Projects = () => {
         <div className="projects-cta">
           <h3>Want to see more?</h3>
           <p>Check out my GitHub for additional projects and code samples</p>
-          <a href="https://github.com/harsh" className="btn btn-primary">
+          <a href="https://github.com/SkY-DyNamiC" className="btn btn-primary">
             View All Projects
           </a>
         </div>

@@ -44,19 +44,18 @@ const Hero = () => {
             </div>
             
             <div className="social-links">
-              <a href="mailto:harsh832019@gmail.com" className="social-link" title="Email">
+              <a href="harsh832019@gmail.com" className="social-link" title="Email">
                 ✉️
               </a>
-              <a href="https://linkedin.com/in/harsh-kumar" className="social-link" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/harsh-kumar555125/" className="social-link" title="LinkedIn">
                 💼
               </a>
-              <a href="https://github.com/harsh" className="social-link" title="GitHub">
+              <a href="https://github.com/SkY-DyNamiC" className="social-link" title="GitHub">
                 🐙
               </a>
             </div>
           </div>
         </div>
-        
         <div className="scroll-indicator">
           <div className="scroll-arrow">↓</div>
         </div>
