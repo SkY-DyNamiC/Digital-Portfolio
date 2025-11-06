@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "harsh-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -24,9 +23,5 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
     "vite": "^7.2.1"
-=======
-  "dependencies": {
-    "react-router-dom": "^7.9.3"
->>>>>>> 623af1e05c7e41f6cd4daccf30449107db3d05e8
   }
 }
