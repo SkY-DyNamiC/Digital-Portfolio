@@ -275,3 +275,161 @@
     font-size: 2.5rem;
   }
 }
+.cv-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.cv-dropdown-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  min-width: 180px;
+  background: rgba(36, 37, 38, 0.96);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.30);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  animation: fadeInScale 0.18s cubic-bezier(.42,0,.58,1) both;
+  padding: 10px 0;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.cv-download-option {
+  padding: 12px 22px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border: none;
+  background: none;
+  transition: background 0.16s, color 0.16s;
+  border-radius: 6px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.cv-download-option:hover {
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+  color: #00d4ff;
+}
+
+.btn-download {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #fff;
+  border: 2px solid #414345;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 10px 28px;
+  text-shadow: 0 0 8px rgba(0,0,0,0.26);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  backdrop-filter: blur(8px);
+}
+
+.btn-download:hover {
+  background: linear-gradient(135deg, #0f2027 0%, #232526 100%);
+  color: #00d4ff;
+  border-color: #00d4ff;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+}
+.cv-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-downloadcv {
+  background: linear-gradient(135deg, #232526 14%, #0056b3 86%);
+  color: #fff;
+  border: 2px solid #0056b3;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 10px 28px;
+  text-shadow: 0 0 8px rgba(0,86,179,0.17);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0,86,179,0.11);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn-downloadcv:hover,
+.btn-downloadcv:focus {
+  background: linear-gradient(135deg, #0056b3 18%, #232526 82%);
+  color: #00d4ff;
+  border-color: #00d4ff;
+  box-shadow: 0 8px 32px rgba(0,86,179,0.22);
+}
+
+.cv-dropdown-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  min-width: 174px;
+  background: rgba(36, 37, 48, 0.97);
+  border-radius: 10px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.30);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  animation: fadeInScale 0.18s cubic-bezier(.42,0,.58,1) both;
+  padding: 8px 0;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.cv-download-option {
+  padding: 11px 22px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border: none;
+  background: none;
+  transition: background 0.14s, color 0.16s;
+  border-radius: 6px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.cv-download-option:hover {
+  background: linear-gradient(90deg, #232526 0%, #0056b3 100%);
+  color: #00d4ff;
+}
+
+/* Social icons SVG enhancements */
+.social-link svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  transition: transform 0.18s;
+}
+.social-link:hover svg {
+  transform: scale(1.15);
+}
+
